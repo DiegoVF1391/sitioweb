@@ -420,6 +420,35 @@ article .icon:hover {
   color: black;
 }
 
+.project-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-container:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-text {
+  padding-bottom: 1.8rem;
+  flex: 1;
+  text-align: center;
+}
+
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
